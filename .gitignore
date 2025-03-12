@@ -1,3 +1,4 @@
+### Java ###
 # Compiled class file
 *.class
 
@@ -19,6 +20,81 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# virtual machine crash logs
 hs_err_pid*
 replay_pid*
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+### macOS ###
+# macOS system files
+.DS_Store
+
+### Gradle ###
+.gradle
+**/build/
+!src/**/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Avoid ignore Gradle wrappper properties
+!gradle-wrapper.properties
+
+# Cache of project
+.gradletasknamecache
+
+# Eclipse Gradle plugin generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+### IDE 설정 파일 제외 ###
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.settings/
+*.prefs
+*.launch
+
+# VSCode
+.vscode/
+
+### Spring Boot 환경 파일 (보안상 제외) ###
+src/main/resources/application.properties
+src/main/resources/application.yml
+src/main/resources/application-*.yml
+
+### Gradle Patch ###
+# Java heap dump
+*.hprof
